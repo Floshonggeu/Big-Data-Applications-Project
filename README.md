@@ -22,3 +22,14 @@ The tools to be used are:
 - Mlflow
 - SHAP
 
+## Structuration
+
+After creating a Git repository and granting access to everyone that needed it, we decided to start computing models on Jupyter Lab in a Conda environment.
+We decided to not use multiple branches in the Git repository, as we thought it wasn't necessary.
+For the project documentation, we used Sphinx.
+
+## Models
+
+For the models implementation, we let the choice to the user for the model, and also for the number of estimators used.
+After that, the program will create the model and predict values based on the user's choices. All models' data are given to Mlflow.
+Some metrics are calculated using scikit-learn, in order to see what model and what parameters are the most efficient.
