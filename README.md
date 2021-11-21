@@ -33,3 +33,8 @@ For the project documentation, we used Sphinx.
 For the models implementation, we let the choice to the user for the model, and also for the number of estimators used.
 After that, the program will create the model and predict values based on the user's choices. All models' data are given to Mlflow.
 Some metrics are calculated using scikit-learn, in order to see what model and what parameters are the most efficient.
+
+## Shap
+
+To obtain more explainability about the trained models, we use Shap.
+With Shap we can provide more information about the models and its parameters (for example what parameters are the most important for the prediction).
