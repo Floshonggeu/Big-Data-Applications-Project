@@ -34,6 +34,12 @@ For the models implementation, we let the choice to the user for the model, and 
 After that, the program will create the model and predict values based on the user's choices. All models' data are given to Mlflow.
 Some metrics are calculated using scikit-learn, in order to see what model and what parameters are the most efficient.
 
+The mlflow result is:
+
+![image](https://user-images.githubusercontent.com/93647151/143055651-89d26cec-5b23-443f-8655-f4504043234e.png)
+
+With this, we can compare our different models to see which ones are the most accurate
+
 ## Shap
 
 To obtain more explainability about the trained models, we use Shap.
