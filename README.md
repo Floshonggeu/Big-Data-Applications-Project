@@ -38,3 +38,11 @@ Some metrics are calculated using scikit-learn, in order to see what model and w
 
 To obtain more explainability about the trained models, we use Shap.
 With Shap we can provide more information about the models and its parameters (for example what parameters are the most important for the prediction).
+
+The obtained result is:
+
+![image](https://user-images.githubusercontent.com/93647151/143055347-bca39a96-d6a4-4ba0-b293-6101eb59a10f.png)
+
+On the chart, we can see what parameters are the most important for our models (EXT_SOURCE 1, 2 and 3)
+
+
