@@ -22,6 +22,8 @@ The tools to be used are:
 - Mlflow
 - SHAP
 
+The data used is from kaggle, it's a datasrt about credit risk. We could only upload the test dataset on the git repository, as the train one was unfortunately too big to be uploaded.
+
 ## Structuration
 
 After creating a Git repository and granting access to everyone that needed it, we decided to start computing models on Jupyter Lab in a Conda environment.
