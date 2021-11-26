@@ -26,7 +26,7 @@ The data used is from kaggle, it's a datasrt about credit risk. We could only up
 
 ## Structuration
 
-After creating a Git repository and granting access to everyone that needed it, we decided to start computing models on Jupyter Lab in a Conda environment.
+The main file is project.py
 We decided to not use multiple branches in the Git repository, as we thought it wasn't necessary.
 For the project documentation, we used Sphinx.
 
